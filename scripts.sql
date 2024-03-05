@@ -1,0 +1,11 @@
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (101, 500, 20.75, TO_DATE('2023-09-01 09:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (102, 300, 150.50, TO_DATE('2023-09-01 09:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (103, 200, 5.20, TO_DATE('2023-09-01 10:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (104, 400, 12.35, TO_DATE('2023-09-01 10:15:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (105, 250, 8.95, TO_DATE('2023-09-01 11:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (106, 600, 3.55, TO_DATE('2023-09-01 11:30:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (107, 100, 45.10, TO_DATE('2023-09-01 12:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (108, 450, 9.60, TO_DATE('2023-09-01 13:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (109, 320, 120.00, TO_DATE('2023-09-01 14:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+INSERT INTO source_trades (security_id, volume, price, trade_date) VALUES (110, 280, 60.25, TO_DATE('2023-09-01 15:00:00', 'YYYY-MM-DD HH24:MI:SS'));
+commit;
